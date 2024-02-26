@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Montserrat&family=Nunito&display=swap");
+
+.icon-text {
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.planetseraHeading {
+  font-size: 55px;
+  font-weight: 300;
+  line-height: 75px;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(#20932c, #a0fd90);
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 300;
+}
+.planetseraText {
+  font-size: 29px;
+  line-height: 60px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+
+.planetHeading {
+  font-size: 72px;
+  font-weight: 300;
+  line-height: 85px;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(#20932c, #a0fd90);
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 300;
+}
+
+.why-line {
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+  width: 130px;
+  height: 2px;
+  position: absolute;
+  left: 408px;
+  top: 91px;
+}
+.precision-line {
+  width: 190px;
+  height: 2px;
+  position: absolute;
+  left: 6px;
+  top: 73px;
+  background: linear-gradient(102.83deg, #ffffff 48.97%, #a0fd90 100%);
+  transform: rotate(180deg);
+}
+
+.lab-line {
+  width: 190px;
+  height: 2px;
+  position: absolute;
+  left: 9px;
+  top: 73px;
+  background: linear-gradient(102.83deg, #ffffff 48.97%, #a0fd90 100%);
+  transform: rotate(180deg);
+}
+
+.myfLex {
+  display: flex;
+}
+
+.myfirst {
+  order: inherit;
+}
+.mysecond {
+  order: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .planetseraText {
+    font-size: 16px;
+    line-height: 30px !important;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+  }
+  .planetseraHeading {
+    font-size: 34px;
+    line-height: 75px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+  }
+
+  .icon-text {
+    font-size: 13px;
+    line-height: normal;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 33px;
+  }
+  .planetHeading {
+    font-size: 54px;
+    line-height: 85px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+  }
+
+  .plannWd {
+    max-width: 40%;
+  }
+
+  .myfLex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .myfirst {
+    order: 2;
+  }
+  .mysecond {
+    order: 1;
+  }
+}

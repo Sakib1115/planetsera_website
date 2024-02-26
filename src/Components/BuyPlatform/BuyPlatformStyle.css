@@ -1,0 +1,16 @@
+.buyContainer{
+    display: flex;
+    margin: auto;
+    width: 98%;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+    .buyContainer{
+        width: 97%;
+    }
+  }
+
+  .buyImg{
+    padding: 0 1%;
+  }

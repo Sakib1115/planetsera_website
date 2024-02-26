@@ -1,0 +1,117 @@
+@font-face {
+  font-family: myregular;
+  src: url(josefont.ttf);
+}
+
+@font-face {
+  font-family: oriyafont;
+  src: url(oriyafont.ttc);
+}
+
+.ProductSection-text {
+  font-family: Josefin Sans;
+  font-size: 100px ;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+  line-height: 6rem;
+  width: 90%;
+  text-align: left;
+}
+
+@media screen and (max-width: 600px){
+  .ProductSection-text {
+    font-size: 45px;
+    line-height: 5rem;
+    text-align: center;
+  }
+}
+
+.SecondPageButton {
+  font-family: "Josefin Sans";
+  color: #ededed;
+  font-size: 16px;
+  text-align: center;
+  background-image: linear-gradient(#ff4f4f 0%, #fe7171 100%) !important;
+  width: 165px;
+  height: 56px;
+  /* padding: 22PX; */
+  border-radius: 27px;
+  margin-top: 36px;
+  border: 1px solid #ffff;
+}
+
+.ProductSectionImg {
+  background-image: url("@assets/images/productSection.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 600px){
+  .ProductSectionImg {
+    height: unset;
+    background-attachment: unset;
+  }
+}
+
+
+.btn2 {
+  box-shadow: inset 0 0 0 0 #ff4f4f;
+  transition: ease-out 0.4s;
+}
+.btn2:hover {
+  box-shadow: inset 400px 0 0 0 #ffffff;
+  color: #111010;
+}
+
+.productSec {
+  height: 480px;
+}
+
+.productback-alignment {
+  position: absolute;
+  margin-top: 172px;
+  left: -74px;
+}
+
+.spi-alignment {
+  position: absolute;
+  top: -288px;
+  left: 524px;
+  width: 500px;
+}
+
+@media screen and (max-width: 600px){
+  .spi-alignment {
+    top: -215px;
+    left: unset;
+  }
+}
+
+.spi-container {
+  position: relative;
+  width: 100%;
+  margin-top: 280px;
+}
+
+@media screen and (max-width: 600px){
+  .spi-container {
+    margin-top: 220px;
+  }
+}
+
+.rectangleLine {
+  width: 151px;
+  height: 2px;
+  position: absolute;
+  left: 90px;
+  top: 326px;
+}
+
+@media screen and (max-width: 600px){
+  .rectangleLine{
+    display: none;
+  }
+}

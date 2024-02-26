@@ -1,0 +1,109 @@
+.ingreIcon {
+    width: 80px;
+  }
+
+  .ingredient-text {
+    font-family: "Josefin Sans";
+    font-weight: 300;
+    font-size: 17px;
+  }
+.rtl{
+  direction: rtl;
+}
+  @media screen and (max-width: 600px){
+    .ingredient-heading{
+    font-size: 10px;
+   
+    }
+ }
+
+  .ingredient-heading {
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#FF4F4F, #FE7171);
+    background-image: linear-gradient(to right, #FF4F4F, #FE7171);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+  }
+
+  @media screen and (max-width: 600px){
+    .ingredient-heading{
+    font-size: 18px;
+    line-height: 20px;
+    }
+ }
+
+  .delicious-heading {
+    font-size: 60px;
+    font-family: "Montserrat";
+    background: -webkit-linear-gradient(#FF4F4F, #FE7171);
+    background-image: linear-gradient(to right, #FF4F4F, #FE7171);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 600px){
+    .delicious-heading{
+    font-size: 35px;
+    /* line-height: 3rem; */
+    }
+ }
+
+  .delicious-text {
+    font-size: 24px;
+    font-family: "Montserrat";
+    font-weight: 100;
+    text-align: center;
+    color: #443e3e;
+  }
+
+  @media screen and (max-width: 600px){
+    .delicious-text{
+    font-size: 18px;
+    margin-bottom: 1rem !important;
+    }
+ }
+
+  .myImage-main {
+    margin: 0px -60px;
+    max-width: 132%;
+  }
+
+
+@media screen and (max-width: 600px){
+    .SpicesContainer{
+      display: flex;
+    }
+}
+@media screen and (max-width: 600px){
+    .spicesBox1{
+      order: 2;
+      width: 50% !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .spicesBox2{
+      order: 1;
+      width: 100%;
+      display: none;
+    }
+}
+@media screen and (max-width: 600px){
+    .spicesBox3{
+      order: 3;
+      width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .spicesInfoContainer{
+      margin-top:1rem !important;
+    }
+}

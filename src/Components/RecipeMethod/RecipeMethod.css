@@ -1,0 +1,47 @@
+@font-face {
+  font-family: myregular;
+  src: url(josefont.ttf);
+}
+
+@font-face {
+  font-family: oriyafont;
+  src: url(oriyafont.ttc);
+}
+
+.recipeImg {
+  position: absolute;
+  display: block;
+  right: 35px;
+  font-size: 26px;
+  top: 14px;
+  color: #ff6260;
+  background-color: #ffffff;
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe-heading {
+  font-size: 18px;
+  font-family: myregular;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+.try {
+  font-size: 48px;
+  font-family: oriyafont;
+  color: #ff6260;
+  /* line-height: 60px; */
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.try-text {
+  font-size: 20px;
+  color: #00000099;
+  font-family: myregular;
+}

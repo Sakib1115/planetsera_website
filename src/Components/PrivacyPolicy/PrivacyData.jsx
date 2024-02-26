@@ -1,0 +1,37 @@
+export const PrivacyData = [
+  {
+    ButtonOne: "What Information Do We Collect?",
+    ButtonParraOne:
+      "Exercitation in fugiat est ut ad ea cupidatat ut  cupidatat occaecat ut occaecat consequat est minim minim  esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicingeu reprehenderit enim. Exercitation in fugiat est ut ad eacupidatat ut in cupidatat occaecat ut occaecat consequat estminim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque molestias quod eum aliquid ab, laborum est blanditiis quibusdam! Aliquid quasi nobis quod architecto. Enim, voluptatem!Necessitatibus minus est maxime quia, sequi officiis obcaecati quae tenetur architecto impedit blanditiis illomagnam distinctio cum pariatur ullam facere ipsum ipsa, expedita ipsam? Id expedita doloremque, non voluptatibus a laboriosam facilis perspiciatis veniam eum fuga recusandae,obcaecati porro corporis officiis ea, adipisci deleniti! Alias quisquam minima recusandae quidem, aperiam debitis remprovident, aliquam asperiores quaerat tenetur, fugiat iste eos impedit soluta voluptatem",
+  },
+
+  {
+    ButtonTwo: "No Spam Policy",
+    ButtonParraTwo:
+      "Exercitation in fugiat est ut ad ea cupidatat ut  cupidatat occaecat ut occaecat consequat est minim minim  esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicingeu reprehenderit enim. Exercitation in fugiat est ut ad eacupidatat ut in cupidatat occaecat ut occaecat consequat estminim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque molestias quod eum aliquid ab, laborum est blanditiis quibusdam! Aliquid quasi nobis quod architecto. Enim, voluptatem!Necessitatibus minus est maxime quia, sequi officiis obcaecati quae tenetur architecto impedit blanditiis illomagnam distinctio cum pariatur ullam facere ipsum ipsa, expedita ipsam? Id expedita doloremque",
+  },
+
+  {
+    ButtonThree: "Do We Use Cookies?",
+    ButtonParraThree:
+      "Exercitation in fugiat est ut ad ea cupidatat ut  cupidatat occaecat ut occaecat consequat est minim minim  esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicingeu reprehenderit enim. Exercitation in fugiat est ut ad eacupidatat ut in cupidatat occaecat ut occaecat consequat estminim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque molestias quod eum aliquid ab, laborum est blanditiis quibusdam! Aliquid quasi nobis quod architecto. Enim, voluptatem!Necessitatibus minus est maxime quia, sequi officiis obcaecati quae tenetur architecto impedit blanditiis illomagnam distinctio cum pariatur ullam facere ipsum ipsa, expedita ipsam? Id expedita doloremque, non voluptatibus a laboriosam facilis perspiciatis veniam eum fuga recusandae,obcaecati porro corporis officiis ea, adipisci deleniti! Alias quisquam minima recusandae quidem, aperiam debitis remprovident, aliquam asperiores quaerat tenetur, fugiat iste eos impedit soluta voluptatem",
+  },
+
+  {
+    ButtonFour: "Conduct",
+    ButtonParraFour:
+      "Exercitation in fugiat est ut ad ea cupidatat ut  cupidatat occaecat ut occaecat consequat est minim minim  esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicingeu reprehenderit enim. Exercitation in fugiat est ut ad eacupidatat ut in cupidatat occaecat ut occaecat consequat estminim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque molestias quod eum aliquid ab, laborum est blanditiis quibusdam! Aliquid quasi nobis quod architecto. Enim, voluptatem!Necessitatibus minus est maxime quia, sequi officiis obcaecati quae tenetur architecto impedit blanditiis illomagnam distinctio cum pariatur ullam facere ipsum ipsa, expedita ipsam? Id expedita doloremque, non voluptatibus a laboriosam facilis perspiciatis veniam eum fuga recusandae,obcaecati porro corporis officiis ea, adipisci deleniti! Alias quisquam minima recusandae quidem, aperiam debitis remprovident, aliquam asperiores quaerat tenetur, fugiat iste eos impedit soluta voluptatem",
+  },
+
+  {
+    ButtonFive: "Third Party Links",
+    ButtonParraFive:
+      "Exercitation in fugiat est ut ad ea cupidatat ut  cupidatat occaecat ut occaecat consequat est minim minim  esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicingeu reprehenderit enim. Exercitation in fugiat est ut ad eacupidatat ut in cupidatat occaecat ut occaecat consequat estminim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque molestias quod eum aliquid ab, laborum est blanditiis quibusdam! Aliquid quasi nobis quod architecto. Enim, voluptatem!Necessitatibus minus est maxime quia, sequi officiis obcaecati quae tenetur architecto impedit blanditiis illomagnam distinctio cum pariatur ullam facere ipsum ipsa, expedita ipsam? Id expedita doloremque, non voluptatibus a laboriosam facilis perspiciatis veniam eum fuga recusandae,obcaecati porro corporis officiis ea, adipisci deleniti! Alias quisquam minima recusandae quidem, aperiam debitis remprovident, aliquam asperiores quaerat tenetur, fugiat iste eos impedit soluta voluptatem",
+  },
+
+  {
+    ButtonSix: "Changes To Our Privacy Policy",
+    ButtonParraSix:
+      "Exercitation in fugiat est ut ad ea cupidatat ut  cupidatat occaecat ut occaecat consequat est minim minim  esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Exercitation in fugiat est ut ad ea cupidatat ut in cupidatat occaecat ut occaecat consequat est minim minim esse tempor laborum consequat esse adipisicingeu reprehenderit enim. Exercitation in fugiat est ut ad eacupidatat ut in cupidatat occaecat ut occaecat consequat estminim minim esse tempor laborum consequat esse adipisicing eu reprehenderit enim. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione itaque molestias quod eum aliquid ab, laborum est blanditiis quibusdam! Aliquid quasi nobis quod architecto. Enim, voluptatem!Necessitatibus minus est maxime quia, sequi officiis obcaecati quae tenetur architecto impedit blanditiis illomagnam distinctio cum pariatur ullam facere ipsum ipsa, expedita ipsam? Id expedita doloremque, non voluptatibus a laboriosam facilis perspiciatis veniam eum fuga recusandae,obcaecati porro corporis officiis ea, adipisci deleniti! Alias quisquam minima recusandae quidem, aperiam debitis remprovident, aliquam asperiores quaerat tenetur, fugiat iste eos impedit soluta voluptatem",
+  },
+];

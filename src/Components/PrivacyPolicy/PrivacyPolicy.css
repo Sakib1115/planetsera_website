@@ -1,0 +1,113 @@
+@font-face {
+  font-family: myregular;
+  src: url(josefont.ttf);
+}
+@font-face {
+  font-family: oriyafont;
+  src: url(oriyafont.ttc);
+}
+
+.privacyBackground {
+  /* background-image: url("@assets/images/privacyHeader.webp"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: linear-gradient(to right, #f2719a 0%, #f9897b 100%); */
+  background: linear-gradient(107.77deg, #ff4f4f 15.95%, #fe7171 100%);
+}
+
+.privacy-heading {
+  font-size: 40px;
+  color: white;
+  font-family: "oriyafont";
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.privacyHeight {
+  height: 266px;
+}
+
+.accordion__button {
+  background-color: #ffffff !important;
+  color: #0d0d0d !important;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  font-family: "oriyafont";
+  font-size: 17px;
+  font-weight: bold;
+  /* box-shadow: 1px 1px 4px 1px lightgray; */
+}
+.accordion__button:hover {
+  /* background: linear-gradient(to right, #f2719a 0%, #f9897b 100%) !important; */
+  background: linear-gradient(
+    107.77deg,
+    #000000 15.95%,
+    #1e1e1e 100%
+  ) !important;
+  color: white !important;
+}
+.accordion__panel {
+  padding: 20px !important;
+  animation: fadein 0.35s ease-in !important;
+  color: #75797f !important;
+  font-family: myregular;
+  font-size: 16px;
+  position: absolute;
+  right: 108px;
+  top: 337px;
+  width: 56%;
+  line-height: 2;
+  text-align: justify;
+}
+.accordion__panel h1 {
+  color: #000000;
+  font-size: 32px;
+  font-family: "oriyafont";
+  color: #ffffff;
+  margin-bottom: 10px;
+  background-color: #fe6e6e;
+  text-indent: 15px;
+}
+
+.accordion {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  width: 30%;
+  /* margin: auto; */
+  margin-left: 15px;
+}
+
+.bread {
+  position: absolute;
+  top: 168px;
+  left: 66px;
+  font-family: oriyafont;
+  letter-spacing: 1px;
+}
+
+.last-updated {
+  color: white;
+  font-family: "myregular";
+}
+
+.address-heading {
+  font-size: 20px;
+  font-family: "oriyafont";
+  color: #1e1e1e;
+  margin-bottom: 10px;
+}
+address {
+  font-family: "myregular";
+  color: #75797f;
+}
+
+.company {
+  font-size: 20px;
+  font-family: "oriyafont";
+  color: #fe6969;
+  text-transform: uppercase;
+}

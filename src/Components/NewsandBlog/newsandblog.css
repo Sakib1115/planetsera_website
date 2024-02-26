@@ -1,0 +1,53 @@
+.blog-para {
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 38px;
+  /* word-spacing: 5px; */
+  font-weight: 300;
+}
+.img-div {
+  width: 309px;
+  height: 370px;
+  border-radius: 42.649px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cards {
+  width: 20vw;
+}
+
+.product-font {
+  font-family: "Montserrat";
+}
+
+@media screen and (max-width: 600px) {
+  .newsandblog {
+    width: 100%;
+  }
+  .spoon {
+    display: none;
+  }
+  .cards-container {
+    flex-direction: column;
+  }
+  .blog-para {
+    width: 100%;
+    font-size: 18px;
+  }
+  .cards {
+    width: 100vw;
+    margin: 2px auto;
+    justify-content: center;
+  }
+  .product-name {
+    font-size: 30px;
+  }
+  .product-desc {
+    font-size: 25px;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

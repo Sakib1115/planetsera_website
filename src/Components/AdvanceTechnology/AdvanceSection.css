@@ -1,0 +1,118 @@
+.advanceHeading {
+  font-size: 34px;
+  line-height: 49px;
+  font-family: "Montserrat", sans-serif;
+  background: -webkit-linear-gradient(#20932c, #a0fd90);
+  background-image: linear-gradient(to right, #20932c, #a0fd90);
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 300;
+  /* text-align: center; */
+  margin-top: 0px;
+}
+.advanceText {
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+  color: rgba(79, 79, 79, 1);
+}
+
+.advance-alignment {
+  margin-left: -32px;
+}
+
+.plan-line {
+  background: linear-gradient(102.83deg, #ffffff 48.97%, #a0fd90 100%);
+  transform: rotate(180deg);
+
+  width: 190px;
+  height: 2px;
+  position: absolute;
+  left: 728px;
+  top: 147px;
+}
+.except-line {
+  background: linear-gradient(102.83deg, #ffffff 48.97%, #a0fd90 100%);
+  transform: rotate(180deg);
+  width: 190px;
+  height: 2px;
+  position: absolute;
+  left: 2px;
+  top: 48px;
+}
+.develop-line {
+  background: linear-gradient(102.83deg, #ffffff 48.97%, #a0fd90 100%);
+  transform: rotate(180deg);
+  width: 190px;
+  height: 2px;
+  position: absolute;
+  left: 4px;
+  top: 46px;
+}
+.pure-line {
+  background: linear-gradient(102.83deg, #ffffff 48.97%, #a0fd90 100%);
+  transform: rotate(180deg);
+  width: 190px;
+  height: 2px;
+  position: absolute;
+  left: 1px;
+  top: 45px;
+}
+
+.proWd {
+  flex-basis: 16.66%;
+}
+
+.proFlex {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .advanceHeading {
+    font-size: 21px;
+    line-height: 37px;
+    font-family: "Montserrat", sans-serif;
+    background: -webkit-linear-gradient(#20932c, #a0fd90);
+    background-image: linear-gradient(to right, #20932c, #a0fd90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 300;
+    /* text-align: center; */
+    margin-top: 22px;
+  }
+  .plan-line {
+    display: none;
+  }
+  .except-line {
+    display: none;
+  }
+
+  .develop-line {
+    display: none;
+  }
+  .pure-line {
+    display: none;
+  }
+  .proWd {
+    flex-basis: 56% !important;
+  }
+  .proFlex {
+    display: flex;
+    align-items: flex-start;
+  }
+  .advanceText {
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: normal;
+    color: rgba(79, 79, 79, 1);
+
+    /* line-height: 29px; */
+  }
+}

@@ -1,0 +1,132 @@
+@font-face {
+  font-family: myregular;
+  src: url(josefont.ttf);
+}
+
+@font-face {
+  font-family: oriyafont;
+  src: url(oriyafont.ttc);
+}
+
+.delightbg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 100px 0 30px 0;
+}
+
+@media screen and (max-width:600px){
+  .delightbg{
+    margin: 30px 0;
+  }
+}
+
+.delight-text {
+  font-size: 22px;
+  font-family: "Original Surfer";
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 2px;
+  margin: 60px;
+  color: #727272;
+}
+
+.pouch-size {
+  height: 403px;
+}
+
+.pouch-size1 {
+  height: 475px;
+}
+
+.delight-text2 {
+  font-size: 30px;
+  font-family: "Original Surfer";
+  line-height: 40px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.delight-text3 {
+  text-align: center;
+  font-family: "Original Surfer";
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 2px;
+}
+
+@media screen and (max-width: 600px){
+  .delight-text3 {
+    font-size: 9px;
+    line-height: unset;
+    margin-top: -10px;
+  }
+}
+
+.traditionalHead {
+  font-size: 74px;
+  font-family: "oriyafont";
+  font-weight: 400;
+  text-align: center;
+  background: -webkit-linear-gradient(#ff4f4f, #fe7171);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.traditionalText {
+  font-size: 18px;
+  font-family: "Original Surfer";
+  text-align: center;
+  line-height: 28px;
+  letter-spacing: 2px;
+  /* margin: 60px; */
+  color: #727272;
+}
+
+@media screen and (max-width:600px){
+  .grid{
+    display: block !important;
+  }
+}
+
+@media screen and (max-width:600px){
+  .spaceContainer{
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .widthMob{
+    width: 150px !important;
+  }
+}
+
+@media screen and (max-width:600px){
+  .widthMob2{
+    width: 165px !important;
+  }
+}
+
+@media screen and (max-width:600px){
+  .delightContainer{
+    width: 90% !important;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width:600px){
+  .pouch-size {
+    height: 160px;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width:600px){
+  .pouch-size1 {
+    height: 194px;
+    width: 163px;
+    margin-top: -32px;
+    margin-left: unset !important;
+  }
+}
